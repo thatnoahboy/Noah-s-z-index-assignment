@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(172, 121, 13, 0.425);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns:50px 50px 50px ; */
+    gap: 10px;
+    margin-left: 25%;
+}
+
+img {
+   margin-top: 20%;
+   width: 15%;
+   border-radius: 5%;
+   position: relative;
+   box-shadow: 5px 5px 20px;
+}
+
+img:hover {
+    transform: scale(1.3);
+    transition: 2s;
+}
+
+.img1 {
+   top: 50px;
+   left: 50px;
+}
+
+.img2 {
+    top: 0px;
+    left: 0px;
+}
+
+.img3 {
+    top: -50px;
+    left: -50px;
+    z-index: 1;
+}
+
+.img4 {
+    top: 0px;
+    left: -90px;
+}
+
+.img5 {
+    top: 50px;
+    left: -150px;
+    z-index: -1;
+}
